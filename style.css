@@ -1,8 +1,8 @@
 .container {
   display: grid;
-  grid-template-columns: 200px 1fr 200px;
-  grid-template-rows: 80px auto 60px;
-  gap: 10px;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 80px minmax(200px, auto) 60px;
+  grid-gap: 10px;
   height: 100vh;
   padding: 10px;
 }
@@ -12,24 +12,28 @@ header {
   background: #6fb1fc;
   padding: 20px;
   border-radius: 10px;
+  text-align: center;
 }
 
 nav {
   background: #90ee90;
   padding: 20px;
   border-radius: 10px;
+  text-align: center;
 }
 
 main {
   background: #f0e68c;
   padding: 20px;
   border-radius: 10px;
+  text-align: center;
 }
 
 aside {
   background: #ffcccb;
   padding: 20px;
   border-radius: 10px;
+  text-align: center;
 }
 
 footer {
@@ -37,4 +41,5 @@ footer {
   background: #d3d3d3;
   padding: 20px;
   border-radius: 10px;
+  text-align: center;
 }
