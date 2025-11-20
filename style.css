@@ -1,0 +1,40 @@
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows: 80px auto 60px;
+  gap: 10px;
+  height: 100vh;
+  padding: 10px;
+}
+
+header {
+  grid-column: 1 / 4;
+  background: #6fb1fc;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+nav {
+  background: #90ee90;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+main {
+  background: #f0e68c;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+aside {
+  background: #ffcccb;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  grid-column: 1 / 4;
+  background: #d3d3d3;
+  padding: 20px;
+  border-radius: 10px;
+}
